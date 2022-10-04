@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: fantasy;
+  border: 3px solid greenyellow;
+  display: flex;
+  background-image: url(./img/background\ 1.jpg);
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+header {
+  width: 20%;
+}
+nav {
+  border: 3px solid yellow;
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  width: 100%;
+  min-height: 800px;
+  align-items: center;
+}
+.nav img {
+  max-width: 60%;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+  /* border: 3px solid salmon; */
+  padding: 10px;
+  font-size: 1.3em;
+}
+main {
+  border: 3px solid orange;
+  background-color: darkgray;
+  width: 80%;
+}
+h3 {
+  color: red;
+}
