@@ -6,24 +6,29 @@
 
 body {
   font-family: fantasy;
-  border: 3px solid greenyellow;
+  /* border: 3px solid greenyellow; */
   display: flex;
   background-image: url(./img/background\ 1.jpg);
   width: 100%;
   max-width: 1000px;
   margin: auto;
+  height: 100vh;
 }
+
+/* header section */
+
 header {
   width: 20%;
 }
 nav {
-  border: 3px solid yellow;
+  /* border: 3px solid yellow; */
   display: flex;
   flex-direction: column;
   background-color: grey;
   width: 100%;
   min-height: 800px;
   align-items: center;
+  height: 100vh;
 }
 .nav img {
   max-width: 60%;
@@ -37,11 +42,40 @@ nav {
   padding: 10px;
   font-size: 1.3em;
 }
+
+/* main section */
+
 main {
-  border: 3px solid orange;
+  /* border: 3px solid orange; */
   background-color: darkgray;
   width: 80%;
 }
-h3 {
-  color: red;
+.tempbanner img {
+  width: 100%;
+}
+.programas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* border: 2px solid aqua; */
+  width: 100%;
+}
+.prodiv {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  /* border: 3px solid red; */
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+}
+.programas div img {
+  width: 50%;
+  margin: auto;
+}
+.prodiv:hover {
+  width: 32%;
+  border: 3px solid white;
+  box-shadow: 5px 5px darkblue;
+  transition: all 0.2s ease-in-out 0s;
 }

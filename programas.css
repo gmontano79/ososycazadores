@@ -1,0 +1,46 @@
+* {
+  margin: 0%;
+  padding: 0;
+}
+body {
+  font-family: fantasy;
+  background-color: rgb(247, 195, 99);
+  /* background-image: url(./img/background\ la\ cueva.jpg); */
+  width: 100%;
+}
+.botonprincipal {
+  font-size: 2em;
+}
+
+main h1 {
+  display: block;
+  text-align: center;
+  border: 3px solid yellow;
+  font-size: 4em;
+}
+
+.lacuevacontainer {
+  display: flex;
+  /* justify-content: center; */
+  text-align: center;
+  width: 80%;
+}
+
+h3 {
+  font-size: 3em;
+}
+.eli img,
+.gustavo img {
+  height: 500px;
+}
+
+p {
+  margin: 10px;
+  font-size: 1.5em;
+  text-align: justify;
+}
+
+.videocueva .lacueva {
+  display: block;
+  margin: auto;
+}
